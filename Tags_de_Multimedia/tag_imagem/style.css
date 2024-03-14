@@ -1,0 +1,17 @@
+
+img {
+    width: 300px;
+}
+
+#poster{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(/Tags_de_Multimedia/img/illustration.jpg);
+    /* background-size: cover; */
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+

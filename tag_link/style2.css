@@ -1,0 +1,15 @@
+a:hover{
+    color: orange;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: red;
+}
+
+h1 {
+    user-select: none;
+}
