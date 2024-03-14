@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container{
+    height: 100px; 
+    width: 200px;
+    background-color: lightblue;
+    /*border: 3px solid black -> criação da borda ;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-left: 3px solid green;
+    border-top: 3px dotted red;
+    border-right: 3px dashed yellow;*/
+    border: 3px solid black;
+    border-radius: 5px 10px 20px 1px; /*Arredondamento da borda*/
+    /* outline: 3px dashed red;
+    outline-offset: 5px; -> afastamento da borda do meu elemento
+    */
+    opacity: 0.9; /*Opacidade do elemento entre 0 a 1*/
+    cursor: pointer; /*Muda o estilo do cursor(teste vários!)*/
+    visibility: visible; /*Tipo de visibilidade, oculta ou não*/
+    user-select: none; /*Usuario não consegue copiar nenhum texto*/
+    overflow: auto; /*Quando o conteudo dentro da div for muito grande ele vai fazer uma rolagem automatica*/
+    box-shadow: 5px 10px 20px 1px green; /* Sombra do elemento*/
+    
+  }
+  
+  .container:hover{
+    box-shadow: 5px 10px 20px 1px orange;
+    background-color: orange;
+  }
+  
+  .container2{
+    height: 100px;
+    width: 200px;
+    background-color: lightgray;
+    border: 3px solid yellow;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 1px;
+  }
