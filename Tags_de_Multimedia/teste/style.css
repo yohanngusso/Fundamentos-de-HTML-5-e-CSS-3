@@ -1,0 +1,4 @@
+.div-centralizada {
+    width: 200px; /* Define a largura da div */
+    margin: 0 auto; /* Margem automática à esquerda e à direita para centralizar horizontalmente */
+}

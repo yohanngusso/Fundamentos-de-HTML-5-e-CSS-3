@@ -1,0 +1,35 @@
+table td, table th {
+    border: 2px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+body{
+    font-family: sans-serif;
+}
+
+table caption{
+    caption-side: bottom;
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+tfoot td, table th{
+    background-color: #ddd;
+}
+
+tfoot td{
+    font-style: italic;
+}
+
+.responsive-table{
+    max-width: 100%;
+    overflow-x: auto;
+}
