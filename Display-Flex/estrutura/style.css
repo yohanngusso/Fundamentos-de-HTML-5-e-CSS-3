@@ -1,0 +1,29 @@
+.container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quadrado1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.quadrado2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
