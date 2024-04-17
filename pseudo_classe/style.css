@@ -1,0 +1,27 @@
+.heading{
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover{
+    background-color: blue;
+}
+
+
+a:link{
+    background-color: red;
+}
+
+a:visited{
+    background-color: yellow;
+}
+
+p:not(.azul){
+    color: orange;
+}
+
+/* input:checked + p{
+    background-color: black;
+} */
+input:not(:checked) + p{
+    background-color: black;
+}
