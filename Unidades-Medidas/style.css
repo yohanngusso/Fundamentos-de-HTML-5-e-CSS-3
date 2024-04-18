@@ -1,11 +1,45 @@
-.container{
-    border: 2px solid green;
-    width: 300px;
-    height: 200px;
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
-.retangulo{
-    width: 25vw;
-    height: 50%;
-    background-color: orangered;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pai{
+    width: 50rem;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.pai > div{
+    width: 50%;
+    height: 50rem;
+    background-color: blue;
+}
+
+p{
+    font-size: 2vmax;
+}
+
+.color-one{
+    width: 100vw;
+    height: 100vh;
+    background-color: turquoise;
+}
+
+.color-two{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 1rem;
+    font-size: 2.6rem;
 }
