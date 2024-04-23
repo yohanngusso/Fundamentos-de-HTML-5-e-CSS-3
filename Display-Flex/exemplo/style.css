@@ -1,0 +1,37 @@
+body{
+    background-color: #27272a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    display: flex;
+    background-color: #6366f1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+
+}
+
+.filhos{
+    background-color: #38bdf8;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filhos .texto{
+    border: 2px solid;
+    margin: 20px;
+    padding: 10px;
+    
+}
